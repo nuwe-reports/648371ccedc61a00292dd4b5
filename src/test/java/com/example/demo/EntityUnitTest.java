@@ -39,7 +39,7 @@ class EntityUnitTest {
         r1 = new Room("Cardiology");
         r2 = new Room("Dermatology");
         startsAt = LocalDateTime.of(2023, 6, 10, 9, 0);
-        startsAt2 = LocalDateTime.of(2023, 6, 11, 10, 00);
+        startsAt2 = LocalDateTime.of(2023, 6, 11, 10, 0);
         startsAt3 = LocalDateTime.of(2023, 6, 10, 9, 30);
         startsAt4 = LocalDateTime.of(2023, 6, 10, 8, 0);
         finishesAt = LocalDateTime.of(2023, 6, 10, 10, 0);
