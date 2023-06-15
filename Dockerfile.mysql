@@ -1,0 +1,11 @@
+# MySQL base image
+FROM mysql:latest
+
+# Set up the environment variables for the database
+ENV MYSQL_ROOT_PASSWORD=root
+
+# Copy database initialisation file
+COPY init.sql /docker-entrypoint-initdb.d/
+
+# Expose MySQL database port
+EXPOSE 3306
